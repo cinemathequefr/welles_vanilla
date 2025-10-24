@@ -1,0 +1,49 @@
+@import "reset.css";
+
+:root {
+  --bg-color1: #99a;
+}
+
+html {
+  height: auto;
+  overflow-y: auto;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--bg-color1);
+  color: #222;
+  font-family: "IBM Plex Sans", sans-serif;
+  overflow: visible;
+  -webkit-overflow-scrolling: touch;
+}
+
+#viewport {
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+blockquote {
+  max-width: 100vw;
+  width: 700px;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  outline: solid 1px red;
+}
+
+.name {
+  background-color: #ffff99;
+}
+
+.signature {
+  text-align: right;
+}
