@@ -41,6 +41,7 @@ blockquote {
 }
 
 .name {
+  display: inline-block;
   background-color: #ffff99;
   font-size: 1.5rem;
   line-height: 2rem;
